@@ -4,16 +4,32 @@ body{
     font-family: sans-serif;
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 0.5em;
 }
-
+#cabecera{
+    background: #33f;
+    box-shadow: 0px 0px 36px 23px rgba(10,10,10,1);
+    color:white;
+    font-weight: bold;
+    margin:0;
+    padding:0.5em;
+}
+#cabecera #tagline{
+    padding:0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container{
     width: 70%;
-    padding:1em;
+    padding:0;
     text-align: left;
     border: 1px solid black;
     margin: 0 auto;
 }
+#post{
+    padding:1em;
+}
 #container h1{
 font-size: 20px;
+padding-top: 0;
 }
